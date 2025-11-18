@@ -1,0 +1,130 @@
+.footer {
+  margin: 50px 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top-left img {
+  width: 30%;
+  align-items: center;
+  border-bottom: 1px solid #b415ff;
+  border-left: 1px solid #b415ff;
+  border-radius: 50px;
+  padding: 0px 15px;
+  margin-bottom: 10px;
+}
+.footer-top-left p {
+  font-size: 20px;
+  max-width: 350px;
+}
+.footer-top-right {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.footer-top-right .footer-email-input {
+  display: flex;
+  gap: 30px;
+  padding: 15px 25px;
+  border-radius: 50px;
+  background: #32323b;
+  padding-right: 80px;
+}
+.footer-email-input input {
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #a0a0a0;
+  font-family: Outfit;
+  font-size: 18pxs;
+}
+.footer-subscribe {
+  font-size: 20px;
+  padding: 15px 45px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.footer-bottom-right {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+.footer-email-input:hover {
+  border: 2px solid white;
+}
+.footer-subscribe:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+@media (max-width: 768px) {
+  .footer {
+    margin: 50px 70px;
+  }
+  .footer .logo {
+    width: 100px;
+  }
+  .footer-top {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer-bottom {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1119px) {
+  .footer {
+    margin: 50px;
+  }
+  .footer-top-left p {
+    font-size: 18px;
+    max-width: 250px;
+  }
+  .footer-bottom {
+    font-size: 15px;
+  }
+  .footer-bottom-right {
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .footer-top-left p {
+    font-size: 15px;
+    max-width: 250px;
+  }
+  .footer-bottom {
+    font-size: 12px;
+  }
+  .footer-bottom-right {
+    gap: 30px;
+  }
+  .footer-top-right .footer-email-input {
+    gap: 30px;
+    padding: 10px 20px;
+    padding-right: 50px;
+  }
+  .footer-email-input input {
+    font-size: 15px;
+  }
+  .footer-subscribe {
+    font-size: 20px;
+    padding: 15px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+}
