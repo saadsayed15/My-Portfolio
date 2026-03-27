@@ -69,7 +69,7 @@
 }
 @media (max-width: 768px) {
   .footer {
-    margin: 50px 70px;
+    margin: 50px 70px !important;
   }
   .footer .logo {
     width: 100px;
@@ -82,6 +82,20 @@
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: 50px;
+  }
+  .footer-top-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-top-right .footer-email-input {
+    padding-right: 25px !important;
+  }
+  .footer-email-input input {
+    font-size: 15px;
+  }
+  .footer-subscribe {
+    font-size: 15px;
+    padding: 10px 20px !important;
   }
 }
 @media (max-width: 1119px) {

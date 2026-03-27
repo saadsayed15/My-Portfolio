@@ -112,3 +112,8 @@
     width: 220px;
   }
 }
+@media (max-width: 768px) {
+  .hero {
+    margin: 50px 60px !important;
+  }
+}

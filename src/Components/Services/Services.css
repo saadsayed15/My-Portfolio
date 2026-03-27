@@ -70,7 +70,7 @@
   .services {
     align-items: start;
     gap: 70px;
-    margin: 20px 70px;
+    margin: 20px 70px !important;
   }
   .services-title h1 {
     padding: 10px;
@@ -84,15 +84,15 @@
     font-size: 28px;
   }
   .services-format p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 32px;
-    max-width: 300px;
+    max-width: 350px;
   }
   .services-readmore img {
     width: 20px;
   }
   .services-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 30px;
   }
 }
